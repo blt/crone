@@ -1,0 +1,13 @@
+{application, crone,
+ [
+  {description, "A cron-like libary for Erlang"},
+  {vsn, "2004.0301"},
+  {modules, [crone]},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, {crone, []}},
+  {env, []}
+ ]}.
